@@ -1,7 +1,7 @@
 {
-  "name": "node_boilerplate",
+  "name": "js-server",
   "version": "1.0.0",
-  "description": "A Basic Node Project BoilerPlate",
+  "description": "A simple `js server` powered by (Node.js)",
   "main": "server.js",
   "scripts": {
     "test": "jest",
@@ -9,8 +9,8 @@
     "dev": "nodemon server.js"
   },
   "keywords": [
-    "Node Projects",
-    "Backend"
+    "api",
+    "backend"
   ],
   "author": "Rakshith SN",
   "license": "MIT",
@@ -18,6 +18,7 @@
     "@hapi/joi": "^17.1.1",
     "bcrypt": "^4.0.1",
     "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
     "helmet": "^3.21.3",
